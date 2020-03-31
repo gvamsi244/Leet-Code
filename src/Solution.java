@@ -1,6 +1,6 @@
-import java.lang.Math;
 public class Solution {
     public static int hammingDistance(int x, int y) {
+
         int z=x^y,count=0;
         String str=Integer.toBinaryString(z);
         for(int i=0;i<str.length();i++){
