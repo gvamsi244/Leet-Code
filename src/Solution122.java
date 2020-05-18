@@ -1,3 +1,10 @@
+/**
+ * @author Vamsi Krishna Govada on 5/16/2020.
+ * @project LeetCode
+ */
+
+//Best Time to Buy and Sell Stock II
+
 public class Solution122 {
     public int maxProfit(int[] prices) {
 

@@ -1,3 +1,10 @@
+/**
+ * @author Vamsi Krishna Govada on 5/16/2020.
+ * @project LeetCode
+ */
+
+//Remove Duplicates from Sorted Array
+
 import java.util.*;
 
 public class Solution26 {

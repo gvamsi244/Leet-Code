@@ -1,5 +1,7 @@
-import java.util.Scanner;
-
+/**
+ * @author Vamsi Krishna Govada on 5/15/2020.
+ * @project LeetCode
+ */
 
 public class Solution {
 
