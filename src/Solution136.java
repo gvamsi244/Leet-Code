@@ -5,6 +5,8 @@
 
 // Single Number
 
+import java.util.Arrays;
+
 public class Solution136 {
     public int singleNumber(int[] nums) {
         Arrays.sort(nums);
