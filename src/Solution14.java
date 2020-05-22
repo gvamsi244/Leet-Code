@@ -20,8 +20,9 @@ public class Solution14 {
 
         L1:
         for (int i = 0; i < min; i++) {
-            for (int j = 0; j < len - 1; j++) {
-                if (strs[j].charAt(i) == strs[j + 1].charAt(i)) {
+            char c = strs[0].charAt(i);
+            for (int j = 0; j < len; j++) {
+                if (strs[j].charAt(i) == c) {
                     flag = 1;
                 } else
                     break L1;
