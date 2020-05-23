@@ -6,7 +6,7 @@
 // Count and Say
 
 public class Solution38 {
-    public static String convert(String str) {
+    public String convert(String str) {
         StringBuilder ret = new StringBuilder("");
         int len = str.length(), count = 1;
         for (int i = 0; i < len - 1; i++) {

@@ -24,7 +24,7 @@ public class Solution189 {
         }
     }
 
-    public static int gcd(int a, int b) {
+    public int gcd(int a, int b) {
         if (b == 0)
             return a;
         else
