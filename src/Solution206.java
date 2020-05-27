@@ -40,4 +40,22 @@ public class Solution206 {
             }
         }
     }
+
+
+    // Solution 2: In Recursion
+    /*
+      public ListNode reverseList(ListNode head) {
+        return reverse(null, head);
+    }
+
+    public ListNode reverse(ListNode tail, ListNode head) {
+        if(head!=null){
+            ListNode temp = head.next;
+            head.next=tail;
+            tail=head;
+            return reverse(tail,temp);
+        }
+        return tail;
+    }
+     */
 }
