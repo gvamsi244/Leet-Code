@@ -7,7 +7,7 @@
 
 
 public class Solution704 {
-    public int search(int[] nums, int target) {
+    public int search(int[] nums, int target){
         int len = nums.length;
         int output = -1;
         int start = 0, last = len - 1;
