@@ -17,7 +17,7 @@ public class Solution590 {
     // Comment this section (class Node) in case if you need to submit as Solution in Leetcode
     class Node {
         public int val;
-        public List<Solution.Node> children;
+        public List<Node> children;
 
         public Node() {
         }
@@ -26,13 +26,13 @@ public class Solution590 {
             val = _val;
         }
 
-        public Node(int _val, List<Solution.Node> _children) {
+        public Node(int _val, List<Node> _children) {
             val = _val;
             children = _children;
         }
     }
 
-    public List<Integer> postorder(Solution.Node root) {
+    public List<Integer> postorder(Node root) {
         List<Integer> output = new ArrayList<>();
         if (root == null)
             return output;
@@ -41,7 +41,7 @@ public class Solution590 {
         return output;
     }
 
-    public void helper(Solution.Node root, List<Integer> output) {
+    public void helper(Node root, List<Integer> output) {
         int size = root.children.size();
         for (int i = 0; i < size; i++)
             helper(root.children.get(i), output);
